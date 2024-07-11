@@ -9,19 +9,24 @@ def triarea(a, b):
 def sqarea(a): 
     return round(a**2, 14)
 
+#math has sqrt
 def sq(a):
     return round(a**2, 14)
 
+#math has cbrt
 def cb(a):
     return round(a**3, 14)
 
+#matg has pow(number,exponent)
 def power(a, b):
     return round(a**b, 14)
 
 def root(a, b):
     return round(a**(1/b), 14)
 
-pi = 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679
+#pi = 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679
+#edit by cute_hitoya
+#math has a exact value of pi
 
 def pythag_a_b(a, b):
     return root(a**2 + b**2, 2)
@@ -53,4 +58,6 @@ def yards_mile(yards):
 def metric_table():
     print("\n | Meter = 100 centimeters, 10 decimeters or 1000 millimeters \n | Kilometer = 1000 meters")
 
+
+#hi this cute_hitoya you can use better namings
   
